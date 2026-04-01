@@ -1,0 +1,1396 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0-windows7.0": {
+      "Microsoft.Extensions.DependencyInjection/8.0.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2"
+        },
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.2": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Options/7.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0",
+          "Microsoft.Extensions.Primitives": "7.0.0"
+        },
+        "compile": {
+          "lib/net7.0/Microsoft.Extensions.Options.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.Options.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Extensions.Primitives/7.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Microsoft.Extensions.Primitives.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Extensions.Primitives.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "Microsoft.Win32.SystemEvents/7.0.0": {
+        "type": "package",
+        "compile": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net7.0/Microsoft.Win32.SystemEvents.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "Microsoft.Xaml.Behaviors.Wpf/1.1.77": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0-windows7.0/Microsoft.Xaml.Behaviors.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0-windows7.0/Microsoft.Xaml.Behaviors.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "Newtonsoft.Json/13.0.3": {
+        "type": "package",
+        "compile": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net6.0/Newtonsoft.Json.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "System.Drawing.Common/7.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "7.0.0"
+        },
+        "compile": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net7.0/System.Drawing.Common.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/net7.0/System.Drawing.Common.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
+      "H.Attach/1.0.5": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/H.Attach.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/H.Attach.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "H.Common/1.0.5": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/H.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/H.Common.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "H.Controls.Adorner/1.0.5": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "H.Attach": "1.0.5",
+          "H.Extensions.Behvaiors": "1.0.5",
+          "H.Extensions.Common": "1.0.5",
+          "H.Extensions.Setting": "1.0.5",
+          "H.Style": "1.0.5",
+          "H.Theme": "1.0.5",
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.77"
+        },
+        "compile": {
+          "bin/placeholder/H.Controls.Adorner.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/H.Controls.Adorner.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "H.Controls.Diagram/1.0.5": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "H.Controls.Adorner": "1.0.5",
+          "H.Extensions.Common": "1.0.5",
+          "H.Extensions.Geometry": "1.0.5",
+          "H.Extensions.TypeConverter": "1.0.5",
+          "H.ValueConverter": "1.0.5",
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.77"
+        },
+        "compile": {
+          "bin/placeholder/H.Controls.Diagram.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/H.Controls.Diagram.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "H.Controls.Diagram.Presenter/1.0.5": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "H.Controls.Adorner": "1.0.5",
+          "H.Controls.Diagram": "1.0.5",
+          "H.Controls.Form.PropertyItem": "1.0.5",
+          "H.Extensions.FontIcon": "1.0.5",
+          "H.Extensions.Geometry": "1.0.5",
+          "H.Presenters.Common": "1.0.5",
+          "H.Style": "1.0.5",
+          "H.Theme": "1.0.5"
+        },
+        "compile": {
+          "bin/placeholder/H.Controls.Diagram.Presenter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/H.Controls.Diagram.Presenter.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "H.Controls.FilterBox/1.0.5": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "H.Extensions.Behvaiors": "1.0.5",
+          "H.Extensions.FontIcon": "1.0.5",
+          "H.Extensions.Geometry": "1.0.5",
+          "H.Extensions.NewtonsoftJson": "1.0.5",
+          "H.Extensions.TypeConverter": "1.0.5",
+          "H.Extensions.XmlSerialize": "1.0.5",
+          "H.MarkupExtension": "1.0.5",
+          "H.Services.Message": "1.0.5",
+          "H.Style": "1.0.5",
+          "H.Theme": "1.0.5",
+          "H.ValueConverter": "1.0.5"
+        },
+        "compile": {
+          "bin/placeholder/H.Controls.FilterBox.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/H.Controls.FilterBox.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "H.Controls.Form/1.0.5": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "H.Attach": "1.0.5",
+          "H.Extensions.Behvaiors": "1.0.5",
+          "H.Extensions.Mvvm": "1.0.5",
+          "H.Services.Message": "1.0.5",
+          "H.Theme": "1.0.5",
+          "H.ValueConverter": "1.0.5"
+        },
+        "compile": {
+          "bin/placeholder/H.Controls.Form.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/H.Controls.Form.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "H.Controls.Form.PropertyItem/1.0.5": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "H.Attach": "1.0.5",
+          "H.Controls.Form": "1.0.5",
+          "H.Extensions.DataBase": "1.0.5",
+          "H.Services.Common": "1.0.5",
+          "H.Style": "1.0.5"
+        },
+        "compile": {
+          "bin/placeholder/H.Controls.Form.PropertyItem.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/H.Controls.Form.PropertyItem.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "H.Controls.ImageColorPicker/1.0.5": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "H.Mvvm": "1.0.5"
+        },
+        "compile": {
+          "bin/placeholder/H.Controls.ImageColorPicker.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/H.Controls.ImageColorPicker.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "H.Controls.ROIBox/1.0.5": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/H.Controls.ROIBox.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/H.Controls.ROIBox.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "H.Controls.ZoomBox/1.0.5": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "H.Common": "1.0.5",
+          "H.Style": "1.0.5"
+        },
+        "compile": {
+          "bin/placeholder/H.Controls.ZoomBox.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/H.Controls.ZoomBox.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "H.Controls.ZoomBox.Extension/1.0.5": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "H.Controls.ZoomBox": "1.0.5",
+          "H.Extensions.Behvaiors": "1.0.5",
+          "H.Extensions.Mvvm": "1.0.5",
+          "H.Services.Message": "1.0.5"
+        },
+        "compile": {
+          "bin/placeholder/H.Controls.ZoomBox.Extension.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/H.Controls.ZoomBox.Extension.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "H.Extensions.Behvaiors/1.0.5": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "H.Common": "1.0.5",
+          "H.Extensions.Common": "1.0.5",
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.77"
+        },
+        "compile": {
+          "bin/placeholder/H.Extensions.Behvaiors.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/H.Extensions.Behvaiors.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "H.Extensions.Command/1.0.5": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "H.Extensions.Common": "1.0.5",
+          "H.Mvvm": "1.0.5",
+          "H.Services.Message": "1.0.5"
+        },
+        "compile": {
+          "bin/placeholder/H.Extensions.Command.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/H.Extensions.Command.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "H.Extensions.Common/1.0.5": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/H.Extensions.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/H.Extensions.Common.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "H.Extensions.DataBase/1.0.5": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/H.Extensions.DataBase.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/H.Extensions.DataBase.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "H.Extensions.FontIcon/1.0.5": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "H.Mvvm": "1.0.5"
+        },
+        "compile": {
+          "bin/placeholder/H.Extensions.FontIcon.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/H.Extensions.FontIcon.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "H.Extensions.Geometry/1.0.5": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "H.Services.Common": "1.0.5"
+        },
+        "compile": {
+          "bin/placeholder/H.Extensions.Geometry.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/H.Extensions.Geometry.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "H.Extensions.Mvvm/1.0.5": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "H.Common": "1.0.5",
+          "H.Mvvm": "1.0.5"
+        },
+        "compile": {
+          "bin/placeholder/H.Extensions.Mvvm.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/H.Extensions.Mvvm.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "H.Extensions.NewtonsoftJson/1.0.5": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "H.Extensions.Setting": "1.0.5",
+          "H.Services.Common": "1.0.5",
+          "H.Services.Serializable": "1.0.5",
+          "Newtonsoft.Json": "13.0.3"
+        },
+        "compile": {
+          "bin/placeholder/H.Extensions.NewtonsoftJson.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/H.Extensions.NewtonsoftJson.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "H.Extensions.Setting/1.0.5": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "H.Extensions.Mvvm": "1.0.5",
+          "H.Services.AppPath": "1.0.5",
+          "H.Services.Serializable": "1.0.5",
+          "H.Services.Setting": "1.0.5",
+          "Microsoft.Extensions.Options": "7.0.0"
+        },
+        "compile": {
+          "bin/placeholder/H.Extensions.Setting.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/H.Extensions.Setting.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "H.Extensions.TypeConverter/1.0.5": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "System.Drawing.Common": "7.0.0"
+        },
+        "compile": {
+          "bin/placeholder/H.Extensions.TypeConverter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/H.Extensions.TypeConverter.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "H.Extensions.Validation/1.0.5": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "H.Extensions.Mvvm": "1.0.5"
+        },
+        "compile": {
+          "bin/placeholder/H.Extensions.Validation.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/H.Extensions.Validation.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "H.Extensions.ValueConverter/1.0.5": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "H.Extensions.Common": "1.0.5",
+          "H.Extensions.Validation": "1.0.5",
+          "H.ValueConverter": "1.0.5",
+          "System.Drawing.Common": "7.0.0"
+        },
+        "compile": {
+          "bin/placeholder/H.Extensions.ValueConverter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/H.Extensions.ValueConverter.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "H.Extensions.XmlSerialize/1.0.5": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "H.Services.AppPath": "1.0.5",
+          "H.Services.Common": "1.0.5",
+          "H.Services.Serializable": "1.0.5"
+        },
+        "compile": {
+          "bin/placeholder/H.Extensions.XmlSerialize.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/H.Extensions.XmlSerialize.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "H.Iocable/1.0.5": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.Extensions.DependencyInjection": "8.0.1"
+        },
+        "compile": {
+          "bin/placeholder/H.Iocable.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/H.Iocable.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "H.MarkupExtension/1.0.5": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/H.MarkupExtension.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/H.MarkupExtension.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "H.Mvvm/1.0.5": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/H.Mvvm.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/H.Mvvm.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "H.Presenters.Common/1.0.5": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "H.Extensions.Common": "1.0.5",
+          "H.Extensions.Mvvm": "1.0.5",
+          "H.Services.Common": "1.0.5",
+          "H.Services.Message": "1.0.5",
+          "H.Style": "1.0.5",
+          "H.ValueConverter": "1.0.5",
+          "Microsoft.Xaml.Behaviors.Wpf": "1.1.77"
+        },
+        "compile": {
+          "bin/placeholder/H.Presenters.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/H.Presenters.Common.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "H.Services.AppPath/1.0.5": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "H.Common": "1.0.5",
+          "H.Iocable": "1.0.5"
+        },
+        "compile": {
+          "bin/placeholder/H.Services.AppPath.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/H.Services.AppPath.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "H.Services.Common/1.0.5": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "H.Common": "1.0.5",
+          "H.Iocable": "1.0.5"
+        },
+        "compile": {
+          "bin/placeholder/H.Services.Common.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/H.Services.Common.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "H.Services.Logger/1.0.5": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "H.Common": "1.0.5",
+          "H.Iocable": "1.0.5"
+        },
+        "compile": {
+          "bin/placeholder/H.Services.Logger.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/H.Services.Logger.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "H.Services.Message/1.0.5": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "H.Common": "1.0.5",
+          "H.Iocable": "1.0.5"
+        },
+        "compile": {
+          "bin/placeholder/H.Services.Message.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/H.Services.Message.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "H.Services.Serializable/1.0.5": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "H.Iocable": "1.0.5",
+          "H.Services.Logger": "1.0.5"
+        },
+        "compile": {
+          "bin/placeholder/H.Services.Serializable.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/H.Services.Serializable.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "H.Services.Setting/1.0.5": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "H.Common": "1.0.5",
+          "H.Iocable": "1.0.5"
+        },
+        "compile": {
+          "bin/placeholder/H.Services.Setting.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/H.Services.Setting.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "H.Style/1.0.5": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "H.Attach": "1.0.5",
+          "H.Theme": "1.0.5"
+        },
+        "compile": {
+          "bin/placeholder/H.Style.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/H.Style.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "H.Theme/1.0.5": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/H.Theme.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/H.Theme.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "H.ValueConverter/1.0.5": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/H.ValueConverter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/H.ValueConverter.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "H.VisionMaster.NodeData/2.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "H.Controls.FilterBox": "1.0.5",
+          "H.Controls.Form.PropertyItem": "1.0.5",
+          "H.Controls.ImageColorPicker": "1.0.5",
+          "H.Controls.ROIBox": "1.0.5",
+          "H.Controls.ZoomBox.Extension": "1.0.5",
+          "H.Extensions.Command": "1.0.5",
+          "H.Extensions.Common": "1.0.5",
+          "H.Extensions.ValueConverter": "1.0.5",
+          "H.Services.Message": "1.0.5",
+          "H.VisionMaster.ResultPresenter": "2.0.0"
+        },
+        "compile": {
+          "bin/placeholder/H.VisionMaster.NodeData.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/H.VisionMaster.NodeData.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "H.VisionMaster.ResultPresenter/2.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "H.Controls.Diagram.Presenter": "1.0.5",
+          "H.Extensions.Behvaiors": "1.0.5"
+        },
+        "compile": {
+          "bin/placeholder/H.VisionMaster.ResultPresenter.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/H.VisionMaster.ResultPresenter.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      },
+      "H.VisionMaster.Zoo.Videos/2.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/H.VisionMaster.Zoo.Videos.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/H.VisionMaster.Zoo.Videos.dll": {}
+        },
+        "frameworkReferences": [
+          "Microsoft.WindowsDesktop.App.WPF"
+        ]
+      }
+    }
+  },
+  "libraries": {
+    "Microsoft.Extensions.DependencyInjection/8.0.1": {
+      "sha512": "BmANAnR5Xd4Oqw7yQ75xOAYODybZQRzdeNucg7kS5wWKd2PNnMdYtJ2Vciy0QLylRmv42DGl5+AFL9izA6F1Rw==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection/8.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.DependencyInjection.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.targets",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/net7.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net7.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.xml",
+        "microsoft.extensions.dependencyinjection.8.0.1.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.2": {
+      "sha512": "3iE7UF7MQkCv1cxzCahz+Y/guQbTqieyxyaWKhrRO91itI9cOKO76OHeQDahqG4MmW5umr3CcCvGmK92lWNlbg==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/8.0.2",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Options/7.0.0": {
+      "sha512": "lP1yBnTTU42cKpMozuafbvNtQ7QcBjr/CcK3bYOGEMH55Fjt+iecXjT6chR7vbgCMqy3PG3aNQSZgo/EuY/9qQ==",
+      "type": "package",
+      "path": "microsoft.extensions.options/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Options.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Options.targets",
+        "lib/net462/Microsoft.Extensions.Options.dll",
+        "lib/net462/Microsoft.Extensions.Options.xml",
+        "lib/net6.0/Microsoft.Extensions.Options.dll",
+        "lib/net6.0/Microsoft.Extensions.Options.xml",
+        "lib/net7.0/Microsoft.Extensions.Options.dll",
+        "lib/net7.0/Microsoft.Extensions.Options.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Options.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.Options.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.Options.xml",
+        "microsoft.extensions.options.7.0.0.nupkg.sha512",
+        "microsoft.extensions.options.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Extensions.Primitives/7.0.0": {
+      "sha512": "um1KU5kxcRp3CNuI8o/GrZtD4AIOXDk+RLsytjZ9QPok3ttLUelLKpilVPuaFT3TFjOhSibUAso0odbOaCDj3Q==",
+      "type": "package",
+      "path": "microsoft.extensions.primitives/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.Primitives.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.Primitives.targets",
+        "lib/net462/Microsoft.Extensions.Primitives.dll",
+        "lib/net462/Microsoft.Extensions.Primitives.xml",
+        "lib/net6.0/Microsoft.Extensions.Primitives.dll",
+        "lib/net6.0/Microsoft.Extensions.Primitives.xml",
+        "lib/net7.0/Microsoft.Extensions.Primitives.dll",
+        "lib/net7.0/Microsoft.Extensions.Primitives.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.Primitives.xml",
+        "microsoft.extensions.primitives.7.0.0.nupkg.sha512",
+        "microsoft.extensions.primitives.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Win32.SystemEvents/7.0.0": {
+      "sha512": "2nXPrhdAyAzir0gLl8Yy8S5Mnm/uBSQQA7jEsILOS1MTyS7DbmV1NgViMtvV1sfCD1ebITpNwb1NIinKeJgUVQ==",
+      "type": "package",
+      "path": "microsoft.win32.systemevents/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Win32.SystemEvents.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Win32.SystemEvents.targets",
+        "lib/net462/Microsoft.Win32.SystemEvents.dll",
+        "lib/net462/Microsoft.Win32.SystemEvents.xml",
+        "lib/net6.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/net6.0/Microsoft.Win32.SystemEvents.xml",
+        "lib/net7.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/net7.0/Microsoft.Win32.SystemEvents.xml",
+        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
+        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.xml",
+        "microsoft.win32.systemevents.7.0.0.nupkg.sha512",
+        "microsoft.win32.systemevents.nuspec",
+        "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/net6.0/Microsoft.Win32.SystemEvents.xml",
+        "runtimes/win/lib/net7.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/net7.0/Microsoft.Win32.SystemEvents.xml",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "Microsoft.Xaml.Behaviors.Wpf/1.1.77": {
+      "sha512": "MCu674ZETgU18EbxfwIlRpUPJ02YbZenLsMCXTkpeA7KUBpXfFaOUDlEO+7UWu5AFnUoydg+aQENJkuaZPheMQ==",
+      "type": "package",
+      "path": "microsoft.xaml.behaviors.wpf/1.1.77",
+      "hasTools": true,
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net462/Design/Microsoft.Xaml.Behaviors.Design.dll",
+        "lib/net462/Design/Microsoft.Xaml.Behaviors.DesignTools.dll",
+        "lib/net462/Microsoft.Xaml.Behaviors.dll",
+        "lib/net462/Microsoft.Xaml.Behaviors.pdb",
+        "lib/net462/Microsoft.Xaml.Behaviors.xml",
+        "lib/net6.0-windows7.0/Design/Microsoft.Xaml.Behaviors.DesignTools.dll",
+        "lib/net6.0-windows7.0/Microsoft.Xaml.Behaviors.dll",
+        "lib/net6.0-windows7.0/Microsoft.Xaml.Behaviors.pdb",
+        "lib/net6.0-windows7.0/Microsoft.Xaml.Behaviors.xml",
+        "microsoft.xaml.behaviors.wpf.1.1.77.nupkg.sha512",
+        "microsoft.xaml.behaviors.wpf.nuspec",
+        "tools/Install.ps1"
+      ]
+    },
+    "Newtonsoft.Json/13.0.3": {
+      "sha512": "HrC5BXdl00IP9zeV+0Z848QWPAoCr9P3bDEZguI+gkLcBKAOxix/tLEAAHC+UvDNPv4a2d18lOReHMOagPa+zQ==",
+      "type": "package",
+      "path": "newtonsoft.json/13.0.3",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.md",
+        "README.md",
+        "lib/net20/Newtonsoft.Json.dll",
+        "lib/net20/Newtonsoft.Json.xml",
+        "lib/net35/Newtonsoft.Json.dll",
+        "lib/net35/Newtonsoft.Json.xml",
+        "lib/net40/Newtonsoft.Json.dll",
+        "lib/net40/Newtonsoft.Json.xml",
+        "lib/net45/Newtonsoft.Json.dll",
+        "lib/net45/Newtonsoft.Json.xml",
+        "lib/net6.0/Newtonsoft.Json.dll",
+        "lib/net6.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.0/Newtonsoft.Json.dll",
+        "lib/netstandard1.0/Newtonsoft.Json.xml",
+        "lib/netstandard1.3/Newtonsoft.Json.dll",
+        "lib/netstandard1.3/Newtonsoft.Json.xml",
+        "lib/netstandard2.0/Newtonsoft.Json.dll",
+        "lib/netstandard2.0/Newtonsoft.Json.xml",
+        "newtonsoft.json.13.0.3.nupkg.sha512",
+        "newtonsoft.json.nuspec",
+        "packageIcon.png"
+      ]
+    },
+    "System.Drawing.Common/7.0.0": {
+      "sha512": "KIX+oBU38pxkKPxvLcLfIkOV5Ien8ReN78wro7OF5/erwcmortzeFx+iBswlh2Vz6gVne0khocQudGwaO1Ey6A==",
+      "type": "package",
+      "path": "system.drawing.common/7.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/System.Drawing.Common.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/System.Drawing.Common.targets",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net462/System.Drawing.Common.dll",
+        "lib/net462/System.Drawing.Common.xml",
+        "lib/net6.0/System.Drawing.Common.dll",
+        "lib/net6.0/System.Drawing.Common.xml",
+        "lib/net7.0/System.Drawing.Common.dll",
+        "lib/net7.0/System.Drawing.Common.xml",
+        "lib/netstandard2.0/System.Drawing.Common.dll",
+        "lib/netstandard2.0/System.Drawing.Common.xml",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "runtimes/win/lib/net6.0/System.Drawing.Common.dll",
+        "runtimes/win/lib/net6.0/System.Drawing.Common.xml",
+        "runtimes/win/lib/net7.0/System.Drawing.Common.dll",
+        "runtimes/win/lib/net7.0/System.Drawing.Common.xml",
+        "system.drawing.common.7.0.0.nupkg.sha512",
+        "system.drawing.common.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "H.Attach/1.0.5": {
+      "type": "project",
+      "path": "../../WPF-Control/Source/Base/H.Attach/H.Attach.csproj",
+      "msbuildProject": "../../WPF-Control/Source/Base/H.Attach/H.Attach.csproj"
+    },
+    "H.Common/1.0.5": {
+      "type": "project",
+      "path": "../../WPF-Control/Source/Common/H.Common/H.Common.csproj",
+      "msbuildProject": "../../WPF-Control/Source/Common/H.Common/H.Common.csproj"
+    },
+    "H.Controls.Adorner/1.0.5": {
+      "type": "project",
+      "path": "../../WPF-Control/Source/Controls/H.Controls.Adorner/H.Controls.Adorner.csproj",
+      "msbuildProject": "../../WPF-Control/Source/Controls/H.Controls.Adorner/H.Controls.Adorner.csproj"
+    },
+    "H.Controls.Diagram/1.0.5": {
+      "type": "project",
+      "path": "../../WPF-Control/Source/Controls/H.Controls.Diagram/H.Controls.Diagram.csproj",
+      "msbuildProject": "../../WPF-Control/Source/Controls/H.Controls.Diagram/H.Controls.Diagram.csproj"
+    },
+    "H.Controls.Diagram.Presenter/1.0.5": {
+      "type": "project",
+      "path": "../../WPF-Control/Source/Controls/H.Controls.Diagram.Presenter/H.Controls.Diagram.Presenter.csproj",
+      "msbuildProject": "../../WPF-Control/Source/Controls/H.Controls.Diagram.Presenter/H.Controls.Diagram.Presenter.csproj"
+    },
+    "H.Controls.FilterBox/1.0.5": {
+      "type": "project",
+      "path": "../../WPF-Control/Source/Controls/H.Controls.FilterBox/H.Controls.FilterBox.csproj",
+      "msbuildProject": "../../WPF-Control/Source/Controls/H.Controls.FilterBox/H.Controls.FilterBox.csproj"
+    },
+    "H.Controls.Form/1.0.5": {
+      "type": "project",
+      "path": "../../WPF-Control/Source/Controls/H.Controls.Form/H.Controls.Form.csproj",
+      "msbuildProject": "../../WPF-Control/Source/Controls/H.Controls.Form/H.Controls.Form.csproj"
+    },
+    "H.Controls.Form.PropertyItem/1.0.5": {
+      "type": "project",
+      "path": "../../WPF-Control/Source/Controls/H.Controls.Form.PropertyItem/H.Controls.Form.PropertyItem.csproj",
+      "msbuildProject": "../../WPF-Control/Source/Controls/H.Controls.Form.PropertyItem/H.Controls.Form.PropertyItem.csproj"
+    },
+    "H.Controls.ImageColorPicker/1.0.5": {
+      "type": "project",
+      "path": "../../WPF-Control/Source/Controls/H.Controls.ImageColorPicker/H.Controls.ImageColorPicker.csproj",
+      "msbuildProject": "../../WPF-Control/Source/Controls/H.Controls.ImageColorPicker/H.Controls.ImageColorPicker.csproj"
+    },
+    "H.Controls.ROIBox/1.0.5": {
+      "type": "project",
+      "path": "../../WPF-Control/Source/Controls/H.Controls.ROIBox/H.Controls.ROIBox.csproj",
+      "msbuildProject": "../../WPF-Control/Source/Controls/H.Controls.ROIBox/H.Controls.ROIBox.csproj"
+    },
+    "H.Controls.ZoomBox/1.0.5": {
+      "type": "project",
+      "path": "../../WPF-Control/Source/Controls/H.Controls.ZoomBox/H.Controls.ZoomBox.csproj",
+      "msbuildProject": "../../WPF-Control/Source/Controls/H.Controls.ZoomBox/H.Controls.ZoomBox.csproj"
+    },
+    "H.Controls.ZoomBox.Extension/1.0.5": {
+      "type": "project",
+      "path": "../../WPF-Control/Source/Controls/H.Controls.ZoomBox.Extension/H.Controls.ZoomBox.Extension.csproj",
+      "msbuildProject": "../../WPF-Control/Source/Controls/H.Controls.ZoomBox.Extension/H.Controls.ZoomBox.Extension.csproj"
+    },
+    "H.Extensions.Behvaiors/1.0.5": {
+      "type": "project",
+      "path": "../../WPF-Control/Source/Extensions/H.Extensions.Behvaiors/H.Extensions.Behvaiors.csproj",
+      "msbuildProject": "../../WPF-Control/Source/Extensions/H.Extensions.Behvaiors/H.Extensions.Behvaiors.csproj"
+    },
+    "H.Extensions.Command/1.0.5": {
+      "type": "project",
+      "path": "../../WPF-Control/Source/Extensions/H.Extensions.Command/H.Extensions.Command.csproj",
+      "msbuildProject": "../../WPF-Control/Source/Extensions/H.Extensions.Command/H.Extensions.Command.csproj"
+    },
+    "H.Extensions.Common/1.0.5": {
+      "type": "project",
+      "path": "../../WPF-Control/Source/Extensions/H.Extensions.Common/H.Extensions.Common.csproj",
+      "msbuildProject": "../../WPF-Control/Source/Extensions/H.Extensions.Common/H.Extensions.Common.csproj"
+    },
+    "H.Extensions.DataBase/1.0.5": {
+      "type": "project",
+      "path": "../../WPF-Control/Source/Extensions/H.Extensions.DataBase/H.Extensions.DataBase.csproj",
+      "msbuildProject": "../../WPF-Control/Source/Extensions/H.Extensions.DataBase/H.Extensions.DataBase.csproj"
+    },
+    "H.Extensions.FontIcon/1.0.5": {
+      "type": "project",
+      "path": "../../WPF-Control/Source/Extensions/H.Extensions.FontIcon/H.Extensions.FontIcon.csproj",
+      "msbuildProject": "../../WPF-Control/Source/Extensions/H.Extensions.FontIcon/H.Extensions.FontIcon.csproj"
+    },
+    "H.Extensions.Geometry/1.0.5": {
+      "type": "project",
+      "path": "../../WPF-Control/Source/Extensions/H.Extensions.Geometry/H.Extensions.Geometry.csproj",
+      "msbuildProject": "../../WPF-Control/Source/Extensions/H.Extensions.Geometry/H.Extensions.Geometry.csproj"
+    },
+    "H.Extensions.Mvvm/1.0.5": {
+      "type": "project",
+      "path": "../../WPF-Control/Source/Extensions/H.Extensions.Mvvm/H.Extensions.Mvvm.csproj",
+      "msbuildProject": "../../WPF-Control/Source/Extensions/H.Extensions.Mvvm/H.Extensions.Mvvm.csproj"
+    },
+    "H.Extensions.NewtonsoftJson/1.0.5": {
+      "type": "project",
+      "path": "../../WPF-Control/Source/Extensions/H.Extensions.NewtonsoftJson/H.Extensions.NewtonsoftJson.csproj",
+      "msbuildProject": "../../WPF-Control/Source/Extensions/H.Extensions.NewtonsoftJson/H.Extensions.NewtonsoftJson.csproj"
+    },
+    "H.Extensions.Setting/1.0.5": {
+      "type": "project",
+      "path": "../../WPF-Control/Source/Extensions/H.Extensions.Setting/H.Extensions.Setting.csproj",
+      "msbuildProject": "../../WPF-Control/Source/Extensions/H.Extensions.Setting/H.Extensions.Setting.csproj"
+    },
+    "H.Extensions.TypeConverter/1.0.5": {
+      "type": "project",
+      "path": "../../WPF-Control/Source/Extensions/H.Extensions.TypeConverter/H.Extensions.TypeConverter.csproj",
+      "msbuildProject": "../../WPF-Control/Source/Extensions/H.Extensions.TypeConverter/H.Extensions.TypeConverter.csproj"
+    },
+    "H.Extensions.Validation/1.0.5": {
+      "type": "project",
+      "path": "../../WPF-Control/Source/Extensions/H.Extensions.Validation/H.Extensions.Validation.csproj",
+      "msbuildProject": "../../WPF-Control/Source/Extensions/H.Extensions.Validation/H.Extensions.Validation.csproj"
+    },
+    "H.Extensions.ValueConverter/1.0.5": {
+      "type": "project",
+      "path": "../../WPF-Control/Source/Extensions/H.Extensions.ValueConverter/H.Extensions.ValueConverter.csproj",
+      "msbuildProject": "../../WPF-Control/Source/Extensions/H.Extensions.ValueConverter/H.Extensions.ValueConverter.csproj"
+    },
+    "H.Extensions.XmlSerialize/1.0.5": {
+      "type": "project",
+      "path": "../../WPF-Control/Source/Extensions/H.Extensions.XmlSerialize/H.Extensions.XmlSerialize.csproj",
+      "msbuildProject": "../../WPF-Control/Source/Extensions/H.Extensions.XmlSerialize/H.Extensions.XmlSerialize.csproj"
+    },
+    "H.Iocable/1.0.5": {
+      "type": "project",
+      "path": "../../WPF-Control/Source/Providers/H.Iocable/H.Iocable.csproj",
+      "msbuildProject": "../../WPF-Control/Source/Providers/H.Iocable/H.Iocable.csproj"
+    },
+    "H.MarkupExtension/1.0.5": {
+      "type": "project",
+      "path": "../../WPF-Control/Source/Base/H.MarkupExtension/H.MarkupExtension.csproj",
+      "msbuildProject": "../../WPF-Control/Source/Base/H.MarkupExtension/H.MarkupExtension.csproj"
+    },
+    "H.Mvvm/1.0.5": {
+      "type": "project",
+      "path": "../../WPF-Control/Source/Base/H.Mvvm/H.Mvvm.csproj",
+      "msbuildProject": "../../WPF-Control/Source/Base/H.Mvvm/H.Mvvm.csproj"
+    },
+    "H.Presenters.Common/1.0.5": {
+      "type": "project",
+      "path": "../../WPF-Control/Source/Presenters/H.Presenters.Common/H.Presenters.Common.csproj",
+      "msbuildProject": "../../WPF-Control/Source/Presenters/H.Presenters.Common/H.Presenters.Common.csproj"
+    },
+    "H.Services.AppPath/1.0.5": {
+      "type": "project",
+      "path": "../../WPF-Control/Source/Services/H.Services.AppPath/H.Services.AppPath.csproj",
+      "msbuildProject": "../../WPF-Control/Source/Services/H.Services.AppPath/H.Services.AppPath.csproj"
+    },
+    "H.Services.Common/1.0.5": {
+      "type": "project",
+      "path": "../../WPF-Control/Source/Services/H.Services.Common/H.Services.Common.csproj",
+      "msbuildProject": "../../WPF-Control/Source/Services/H.Services.Common/H.Services.Common.csproj"
+    },
+    "H.Services.Logger/1.0.5": {
+      "type": "project",
+      "path": "../../WPF-Control/Source/Services/H.Services.Logger/H.Services.Logger.csproj",
+      "msbuildProject": "../../WPF-Control/Source/Services/H.Services.Logger/H.Services.Logger.csproj"
+    },
+    "H.Services.Message/1.0.5": {
+      "type": "project",
+      "path": "../../WPF-Control/Source/Services/H.Services.Message/H.Services.Message.csproj",
+      "msbuildProject": "../../WPF-Control/Source/Services/H.Services.Message/H.Services.Message.csproj"
+    },
+    "H.Services.Serializable/1.0.5": {
+      "type": "project",
+      "path": "../../WPF-Control/Source/Services/H.Services.Serializable/H.Services.Serializable.csproj",
+      "msbuildProject": "../../WPF-Control/Source/Services/H.Services.Serializable/H.Services.Serializable.csproj"
+    },
+    "H.Services.Setting/1.0.5": {
+      "type": "project",
+      "path": "../../WPF-Control/Source/Services/H.Services.Setting/H.Services.Setting.csproj",
+      "msbuildProject": "../../WPF-Control/Source/Services/H.Services.Setting/H.Services.Setting.csproj"
+    },
+    "H.Style/1.0.5": {
+      "type": "project",
+      "path": "../../WPF-Control/Source/Styles/H.Style/H.Style.csproj",
+      "msbuildProject": "../../WPF-Control/Source/Styles/H.Style/H.Style.csproj"
+    },
+    "H.Theme/1.0.5": {
+      "type": "project",
+      "path": "../../WPF-Control/Source/Themes/H.Theme/H.Theme.csproj",
+      "msbuildProject": "../../WPF-Control/Source/Themes/H.Theme/H.Theme.csproj"
+    },
+    "H.ValueConverter/1.0.5": {
+      "type": "project",
+      "path": "../../WPF-Control/Source/Base/H.ValueConverter/H.ValueConverter.csproj",
+      "msbuildProject": "../../WPF-Control/Source/Base/H.ValueConverter/H.ValueConverter.csproj"
+    },
+    "H.VisionMaster.NodeData/2.0.0": {
+      "type": "project",
+      "path": "../../VisionMaster/H.VisionMaster.NodeData/H.VisionMaster.NodeData.csproj",
+      "msbuildProject": "../../VisionMaster/H.VisionMaster.NodeData/H.VisionMaster.NodeData.csproj"
+    },
+    "H.VisionMaster.ResultPresenter/2.0.0": {
+      "type": "project",
+      "path": "../../VisionMaster/H.VisionMaster.ResultPresenter/H.VisionMaster.ResultPresenter.csproj",
+      "msbuildProject": "../../VisionMaster/H.VisionMaster.ResultPresenter/H.VisionMaster.ResultPresenter.csproj"
+    },
+    "H.VisionMaster.Zoo.Videos/2.0.0": {
+      "type": "project",
+      "path": "../../VisionMaster/H.VisionMaster.Zoo.Videos/H.VisionMaster.Zoo.Videos.csproj",
+      "msbuildProject": "../../VisionMaster/H.VisionMaster.Zoo.Videos/H.VisionMaster.Zoo.Videos.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0-windows7.0": [
+      "H.VisionMaster.NodeData >= 2.0.0",
+      "H.VisionMaster.Zoo.Videos >= 2.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\yongqian\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+  },
+  "project": {
+    "version": "2.0.0",
+    "restore": {
+      "projectUniqueName": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\NodeDatas\\H.NodeDatas.Zoo\\H.NodeDatas.Zoo.csproj",
+      "projectName": "H.NodeDatas.Zoo",
+      "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\NodeDatas\\H.NodeDatas.Zoo\\H.NodeDatas.Zoo.csproj",
+      "packagesPath": "C:\\Users\\yongqian\\.nuget\\packages\\",
+      "outputPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\NodeDatas\\H.NodeDatas.Zoo\\obj\\",
+      "projectStyle": "PackageReference",
+      "crossTargeting": true,
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
+      "configFilePaths": [
+        "C:\\Users\\yongqian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0-windows"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "projectReferences": {
+            "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\VisionMaster\\H.VisionMaster.NodeData\\H.VisionMaster.NodeData.csproj": {
+              "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\VisionMaster\\H.VisionMaster.NodeData\\H.VisionMaster.NodeData.csproj"
+            },
+            "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\VisionMaster\\H.VisionMaster.Zoo.Videos\\H.VisionMaster.Zoo.Videos.csproj": {
+              "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\VisionMaster\\H.VisionMaster.Zoo.Videos\\H.VisionMaster.Zoo.Videos.csproj"
+            }
+          }
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
+      },
+      "SdkAnalysisLevel": "9.0.300"
+    },
+    "frameworks": {
+      "net8.0-windows7.0": {
+        "targetAlias": "net8.0-windows",
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          },
+          "Microsoft.WindowsDesktop.App.WPF": {
+            "privateAssets": "none"
+          }
+        },
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}
