@@ -1,0 +1,3483 @@
+{
+  "format": 1,
+  "restore": {
+    "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\VisionMaster\\H.VisionMaster.OpenCV\\H.VisionMaster.OpenCV.csproj": {}
+  },
+  "projects": {
+    "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\VisionMaster\\H.VisionMaster.DiagramData\\H.VisionMaster.DiagramData.csproj": {
+      "version": "2.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\VisionMaster\\H.VisionMaster.DiagramData\\H.VisionMaster.DiagramData.csproj",
+        "projectName": "H.VisionMaster.DiagramData",
+        "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\VisionMaster\\H.VisionMaster.DiagramData\\H.VisionMaster.DiagramData.csproj",
+        "packagesPath": "C:\\Users\\yongqian\\.nuget\\packages\\",
+        "outputPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\VisionMaster\\H.VisionMaster.DiagramData\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yongqian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\VisionMaster\\H.VisionMaster.NodeData\\H.VisionMaster.NodeData.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\VisionMaster\\H.VisionMaster.NodeData\\H.VisionMaster.NodeData.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\VisionMaster\\H.VisionMaster.NodeGroup\\H.VisionMaster.NodeGroup.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\VisionMaster\\H.VisionMaster.NodeGroup\\H.VisionMaster.NodeGroup.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.Diagram.Presenter\\H.Controls.Diagram.Presenter.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.Diagram.Presenter\\H.Controls.Diagram.Presenter.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.ZoomBox.Extension\\H.Controls.ZoomBox.Extension.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.ZoomBox.Extension\\H.Controls.ZoomBox.Extension.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\VisionMaster\\H.VisionMaster.NodeData\\H.VisionMaster.NodeData.csproj": {
+      "version": "2.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\VisionMaster\\H.VisionMaster.NodeData\\H.VisionMaster.NodeData.csproj",
+        "projectName": "H.VisionMaster.NodeData",
+        "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\VisionMaster\\H.VisionMaster.NodeData\\H.VisionMaster.NodeData.csproj",
+        "packagesPath": "C:\\Users\\yongqian\\.nuget\\packages\\",
+        "outputPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\VisionMaster\\H.VisionMaster.NodeData\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yongqian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\VisionMaster\\H.VisionMaster.ResultPresenter\\H.VisionMaster.ResultPresenter.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\VisionMaster\\H.VisionMaster.ResultPresenter\\H.VisionMaster.ResultPresenter.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.FilterBox\\H.Controls.FilterBox.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.FilterBox\\H.Controls.FilterBox.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.Form.PropertyItem\\H.Controls.Form.PropertyItem.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.Form.PropertyItem\\H.Controls.Form.PropertyItem.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.ImageColorPicker\\H.Controls.ImageColorPicker.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.ImageColorPicker\\H.Controls.ImageColorPicker.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.ROIBox\\H.Controls.ROIBox.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.ROIBox\\H.Controls.ROIBox.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.ZoomBox.Extension\\H.Controls.ZoomBox.Extension.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.ZoomBox.Extension\\H.Controls.ZoomBox.Extension.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Command\\H.Extensions.Command.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Command\\H.Extensions.Command.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Common\\H.Extensions.Common.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Common\\H.Extensions.Common.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.ValueConverter\\H.Extensions.ValueConverter.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.ValueConverter\\H.Extensions.ValueConverter.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.Message\\H.Services.Message.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.Message\\H.Services.Message.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\VisionMaster\\H.VisionMaster.NodeGroup\\H.VisionMaster.NodeGroup.csproj": {
+      "version": "2.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\VisionMaster\\H.VisionMaster.NodeGroup\\H.VisionMaster.NodeGroup.csproj",
+        "projectName": "H.VisionMaster.NodeGroup",
+        "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\VisionMaster\\H.VisionMaster.NodeGroup\\H.VisionMaster.NodeGroup.csproj",
+        "packagesPath": "C:\\Users\\yongqian\\.nuget\\packages\\",
+        "outputPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\VisionMaster\\H.VisionMaster.NodeGroup\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yongqian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\VisionMaster\\H.VisionMaster.NodeData\\H.VisionMaster.NodeData.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\VisionMaster\\H.VisionMaster.NodeData\\H.VisionMaster.NodeData.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\VisionMaster\\H.VisionMaster.ResultPresenter\\H.VisionMaster.ResultPresenter.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\VisionMaster\\H.VisionMaster.ResultPresenter\\H.VisionMaster.ResultPresenter.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.FilterBox\\H.Controls.FilterBox.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.FilterBox\\H.Controls.FilterBox.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.Form.PropertyItem\\H.Controls.Form.PropertyItem.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.Form.PropertyItem\\H.Controls.Form.PropertyItem.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.ROIBox\\H.Controls.ROIBox.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.ROIBox\\H.Controls.ROIBox.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.ZoomBox.Extension\\H.Controls.ZoomBox.Extension.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.ZoomBox.Extension\\H.Controls.ZoomBox.Extension.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Command\\H.Extensions.Command.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Command\\H.Extensions.Command.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Common\\H.Extensions.Common.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Common\\H.Extensions.Common.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.ValueConverter\\H.Extensions.ValueConverter.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.ValueConverter\\H.Extensions.ValueConverter.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.Message\\H.Services.Message.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.Message\\H.Services.Message.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\VisionMaster\\H.VisionMaster.OpenCV\\H.VisionMaster.OpenCV.csproj": {
+      "version": "2.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\VisionMaster\\H.VisionMaster.OpenCV\\H.VisionMaster.OpenCV.csproj",
+        "projectName": "H.VisionMaster.OpenCV",
+        "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\VisionMaster\\H.VisionMaster.OpenCV\\H.VisionMaster.OpenCV.csproj",
+        "packagesPath": "C:\\Users\\yongqian\\.nuget\\packages\\",
+        "outputPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\VisionMaster\\H.VisionMaster.OpenCV\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yongqian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\VisionMaster\\H.VisionMaster.DiagramData\\H.VisionMaster.DiagramData.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\VisionMaster\\H.VisionMaster.DiagramData\\H.VisionMaster.DiagramData.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\VisionMaster\\H.VisionMaster.NodeData\\H.VisionMaster.NodeData.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\VisionMaster\\H.VisionMaster.NodeData\\H.VisionMaster.NodeData.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\VisionMaster\\H.VisionMaster.NodeGroup\\H.VisionMaster.NodeGroup.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\VisionMaster\\H.VisionMaster.NodeGroup\\H.VisionMaster.NodeGroup.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\VisionMaster\\H.VisionMaster.ResultPresenter\\H.VisionMaster.ResultPresenter.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\VisionMaster\\H.VisionMaster.ResultPresenter\\H.VisionMaster.ResultPresenter.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.ImageColorPicker\\H.Controls.ImageColorPicker.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.ImageColorPicker\\H.Controls.ImageColorPicker.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.AppPath\\H.Services.AppPath.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.AppPath\\H.Services.AppPath.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "OpenCvSharp4.WpfExtensions": {
+              "target": "Package",
+              "version": "[4.6.0.20220608, )"
+            },
+            "OpenCvSharp4.runtime.win": {
+              "target": "Package",
+              "version": "[4.6.0.20220608, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\VisionMaster\\H.VisionMaster.ResultPresenter\\H.VisionMaster.ResultPresenter.csproj": {
+      "version": "2.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\VisionMaster\\H.VisionMaster.ResultPresenter\\H.VisionMaster.ResultPresenter.csproj",
+        "projectName": "H.VisionMaster.ResultPresenter",
+        "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\VisionMaster\\H.VisionMaster.ResultPresenter\\H.VisionMaster.ResultPresenter.csproj",
+        "packagesPath": "C:\\Users\\yongqian\\.nuget\\packages\\",
+        "outputPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\VisionMaster\\H.VisionMaster.ResultPresenter\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yongqian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.Diagram.Presenter\\H.Controls.Diagram.Presenter.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.Diagram.Presenter\\H.Controls.Diagram.Presenter.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Behvaiors\\H.Extensions.Behvaiors.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Behvaiors\\H.Extensions.Behvaiors.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Base\\H.Attach\\H.Attach.csproj": {
+      "version": "1.0.5",
+      "restore": {
+        "projectUniqueName": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Base\\H.Attach\\H.Attach.csproj",
+        "projectName": "H.Attach",
+        "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Base\\H.Attach\\H.Attach.csproj",
+        "packagesPath": "C:\\Users\\yongqian\\.nuget\\packages\\",
+        "outputPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Base\\H.Attach\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yongqian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Base\\H.MarkupExtension\\H.MarkupExtension.csproj": {
+      "version": "1.0.5",
+      "restore": {
+        "projectUniqueName": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Base\\H.MarkupExtension\\H.MarkupExtension.csproj",
+        "projectName": "H.MarkupExtension",
+        "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Base\\H.MarkupExtension\\H.MarkupExtension.csproj",
+        "packagesPath": "C:\\Users\\yongqian\\.nuget\\packages\\",
+        "outputPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Base\\H.MarkupExtension\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yongqian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Base\\H.Mvvm\\H.Mvvm.csproj": {
+      "version": "1.0.5",
+      "restore": {
+        "projectUniqueName": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Base\\H.Mvvm\\H.Mvvm.csproj",
+        "projectName": "H.Mvvm",
+        "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Base\\H.Mvvm\\H.Mvvm.csproj",
+        "packagesPath": "C:\\Users\\yongqian\\.nuget\\packages\\",
+        "outputPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Base\\H.Mvvm\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yongqian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Base\\H.ValueConverter\\H.ValueConverter.csproj": {
+      "version": "1.0.5",
+      "restore": {
+        "projectUniqueName": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Base\\H.ValueConverter\\H.ValueConverter.csproj",
+        "projectName": "H.ValueConverter",
+        "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Base\\H.ValueConverter\\H.ValueConverter.csproj",
+        "packagesPath": "C:\\Users\\yongqian\\.nuget\\packages\\",
+        "outputPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Base\\H.ValueConverter\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yongqian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Common\\H.Common\\H.Common.csproj": {
+      "version": "1.0.5",
+      "restore": {
+        "projectUniqueName": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Common\\H.Common\\H.Common.csproj",
+        "projectName": "H.Common",
+        "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Common\\H.Common\\H.Common.csproj",
+        "packagesPath": "C:\\Users\\yongqian\\.nuget\\packages\\",
+        "outputPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Common\\H.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yongqian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.Adorner\\H.Controls.Adorner.csproj": {
+      "version": "1.0.5",
+      "restore": {
+        "projectUniqueName": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.Adorner\\H.Controls.Adorner.csproj",
+        "projectName": "H.Controls.Adorner",
+        "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.Adorner\\H.Controls.Adorner.csproj",
+        "packagesPath": "C:\\Users\\yongqian\\.nuget\\packages\\",
+        "outputPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.Adorner\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yongqian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Base\\H.Attach\\H.Attach.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Base\\H.Attach\\H.Attach.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Behvaiors\\H.Extensions.Behvaiors.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Behvaiors\\H.Extensions.Behvaiors.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Common\\H.Extensions.Common.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Common\\H.Extensions.Common.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Setting\\H.Extensions.Setting.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Setting\\H.Extensions.Setting.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Styles\\H.Style\\H.Style.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Styles\\H.Style\\H.Style.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Themes\\H.Theme\\H.Theme.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Themes\\H.Theme\\H.Theme.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "Microsoft.Xaml.Behaviors.Wpf": {
+              "target": "Package",
+              "version": "[1.1.77, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.Diagram.Presenter\\H.Controls.Diagram.Presenter.csproj": {
+      "version": "1.0.5",
+      "restore": {
+        "projectUniqueName": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.Diagram.Presenter\\H.Controls.Diagram.Presenter.csproj",
+        "projectName": "H.Controls.Diagram.Presenter",
+        "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.Diagram.Presenter\\H.Controls.Diagram.Presenter.csproj",
+        "packagesPath": "C:\\Users\\yongqian\\.nuget\\packages\\",
+        "outputPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.Diagram.Presenter\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yongqian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.Adorner\\H.Controls.Adorner.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.Adorner\\H.Controls.Adorner.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.Diagram\\H.Controls.Diagram.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.Diagram\\H.Controls.Diagram.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.Form.PropertyItem\\H.Controls.Form.PropertyItem.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.Form.PropertyItem\\H.Controls.Form.PropertyItem.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.FontIcon\\H.Extensions.FontIcon.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.FontIcon\\H.Extensions.FontIcon.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Geometry\\H.Extensions.Geometry.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Geometry\\H.Extensions.Geometry.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Presenters\\H.Presenters.Common\\H.Presenters.Common.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Presenters\\H.Presenters.Common\\H.Presenters.Common.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Styles\\H.Style\\H.Style.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Styles\\H.Style\\H.Style.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Themes\\H.Theme\\H.Theme.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Themes\\H.Theme\\H.Theme.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.Diagram\\H.Controls.Diagram.csproj": {
+      "version": "1.0.5",
+      "restore": {
+        "projectUniqueName": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.Diagram\\H.Controls.Diagram.csproj",
+        "projectName": "H.Controls.Diagram",
+        "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.Diagram\\H.Controls.Diagram.csproj",
+        "packagesPath": "C:\\Users\\yongqian\\.nuget\\packages\\",
+        "outputPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.Diagram\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yongqian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Base\\H.ValueConverter\\H.ValueConverter.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Base\\H.ValueConverter\\H.ValueConverter.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.Adorner\\H.Controls.Adorner.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.Adorner\\H.Controls.Adorner.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Common\\H.Extensions.Common.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Common\\H.Extensions.Common.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Geometry\\H.Extensions.Geometry.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Geometry\\H.Extensions.Geometry.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.TypeConverter\\H.Extensions.TypeConverter.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.TypeConverter\\H.Extensions.TypeConverter.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "Microsoft.Xaml.Behaviors.Wpf": {
+              "target": "Package",
+              "version": "[1.1.77, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.FilterBox\\H.Controls.FilterBox.csproj": {
+      "version": "1.0.5",
+      "restore": {
+        "projectUniqueName": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.FilterBox\\H.Controls.FilterBox.csproj",
+        "projectName": "H.Controls.FilterBox",
+        "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.FilterBox\\H.Controls.FilterBox.csproj",
+        "packagesPath": "C:\\Users\\yongqian\\.nuget\\packages\\",
+        "outputPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.FilterBox\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yongqian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Base\\H.MarkupExtension\\H.MarkupExtension.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Base\\H.MarkupExtension\\H.MarkupExtension.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Base\\H.ValueConverter\\H.ValueConverter.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Base\\H.ValueConverter\\H.ValueConverter.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Behvaiors\\H.Extensions.Behvaiors.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Behvaiors\\H.Extensions.Behvaiors.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.FontIcon\\H.Extensions.FontIcon.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.FontIcon\\H.Extensions.FontIcon.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Geometry\\H.Extensions.Geometry.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Geometry\\H.Extensions.Geometry.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.NewtonsoftJson\\H.Extensions.NewtonsoftJson.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.NewtonsoftJson\\H.Extensions.NewtonsoftJson.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.TypeConverter\\H.Extensions.TypeConverter.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.TypeConverter\\H.Extensions.TypeConverter.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.XmlSerialize\\H.Extensions.XmlSerialize.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.XmlSerialize\\H.Extensions.XmlSerialize.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.Message\\H.Services.Message.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.Message\\H.Services.Message.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Styles\\H.Style\\H.Style.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Styles\\H.Style\\H.Style.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Themes\\H.Theme\\H.Theme.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Themes\\H.Theme\\H.Theme.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.Form.PropertyItem\\H.Controls.Form.PropertyItem.csproj": {
+      "version": "1.0.5",
+      "restore": {
+        "projectUniqueName": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.Form.PropertyItem\\H.Controls.Form.PropertyItem.csproj",
+        "projectName": "H.Controls.Form.PropertyItem",
+        "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.Form.PropertyItem\\H.Controls.Form.PropertyItem.csproj",
+        "packagesPath": "C:\\Users\\yongqian\\.nuget\\packages\\",
+        "outputPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.Form.PropertyItem\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yongqian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Base\\H.Attach\\H.Attach.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Base\\H.Attach\\H.Attach.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.Form\\H.Controls.Form.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.Form\\H.Controls.Form.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.DataBase\\H.Extensions.DataBase.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.DataBase\\H.Extensions.DataBase.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.Common\\H.Services.Common.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.Common\\H.Services.Common.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Styles\\H.Style\\H.Style.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Styles\\H.Style\\H.Style.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.Form\\H.Controls.Form.csproj": {
+      "version": "1.0.5",
+      "restore": {
+        "projectUniqueName": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.Form\\H.Controls.Form.csproj",
+        "projectName": "H.Controls.Form",
+        "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.Form\\H.Controls.Form.csproj",
+        "packagesPath": "C:\\Users\\yongqian\\.nuget\\packages\\",
+        "outputPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.Form\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yongqian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Base\\H.Attach\\H.Attach.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Base\\H.Attach\\H.Attach.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Base\\H.ValueConverter\\H.ValueConverter.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Base\\H.ValueConverter\\H.ValueConverter.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Behvaiors\\H.Extensions.Behvaiors.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Behvaiors\\H.Extensions.Behvaiors.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Mvvm\\H.Extensions.Mvvm.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Mvvm\\H.Extensions.Mvvm.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.Message\\H.Services.Message.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.Message\\H.Services.Message.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Themes\\H.Theme\\H.Theme.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Themes\\H.Theme\\H.Theme.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.ImageColorPicker\\H.Controls.ImageColorPicker.csproj": {
+      "version": "1.0.5",
+      "restore": {
+        "projectUniqueName": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.ImageColorPicker\\H.Controls.ImageColorPicker.csproj",
+        "projectName": "H.Controls.ImageColorPicker",
+        "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.ImageColorPicker\\H.Controls.ImageColorPicker.csproj",
+        "packagesPath": "C:\\Users\\yongqian\\.nuget\\packages\\",
+        "outputPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.ImageColorPicker\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yongqian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Base\\H.Mvvm\\H.Mvvm.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Base\\H.Mvvm\\H.Mvvm.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.ROIBox\\H.Controls.ROIBox.csproj": {
+      "version": "1.0.5",
+      "restore": {
+        "projectUniqueName": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.ROIBox\\H.Controls.ROIBox.csproj",
+        "projectName": "H.Controls.ROIBox",
+        "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.ROIBox\\H.Controls.ROIBox.csproj",
+        "packagesPath": "C:\\Users\\yongqian\\.nuget\\packages\\",
+        "outputPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.ROIBox\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yongqian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.ZoomBox.Extension\\H.Controls.ZoomBox.Extension.csproj": {
+      "version": "1.0.5",
+      "restore": {
+        "projectUniqueName": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.ZoomBox.Extension\\H.Controls.ZoomBox.Extension.csproj",
+        "projectName": "H.Controls.ZoomBox.Extension",
+        "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.ZoomBox.Extension\\H.Controls.ZoomBox.Extension.csproj",
+        "packagesPath": "C:\\Users\\yongqian\\.nuget\\packages\\",
+        "outputPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.ZoomBox.Extension\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yongqian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.ZoomBox\\H.Controls.ZoomBox.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.ZoomBox\\H.Controls.ZoomBox.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Behvaiors\\H.Extensions.Behvaiors.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Behvaiors\\H.Extensions.Behvaiors.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Mvvm\\H.Extensions.Mvvm.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Mvvm\\H.Extensions.Mvvm.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.Message\\H.Services.Message.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.Message\\H.Services.Message.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.ZoomBox\\H.Controls.ZoomBox.csproj": {
+      "version": "1.0.5",
+      "restore": {
+        "projectUniqueName": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.ZoomBox\\H.Controls.ZoomBox.csproj",
+        "projectName": "H.Controls.ZoomBox",
+        "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.ZoomBox\\H.Controls.ZoomBox.csproj",
+        "packagesPath": "C:\\Users\\yongqian\\.nuget\\packages\\",
+        "outputPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Controls\\H.Controls.ZoomBox\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yongqian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Common\\H.Common\\H.Common.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Common\\H.Common\\H.Common.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Styles\\H.Style\\H.Style.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Styles\\H.Style\\H.Style.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Behvaiors\\H.Extensions.Behvaiors.csproj": {
+      "version": "1.0.5",
+      "restore": {
+        "projectUniqueName": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Behvaiors\\H.Extensions.Behvaiors.csproj",
+        "projectName": "H.Extensions.Behvaiors",
+        "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Behvaiors\\H.Extensions.Behvaiors.csproj",
+        "packagesPath": "C:\\Users\\yongqian\\.nuget\\packages\\",
+        "outputPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Behvaiors\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yongqian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Common\\H.Common\\H.Common.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Common\\H.Common\\H.Common.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Common\\H.Extensions.Common.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Common\\H.Extensions.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "Microsoft.Xaml.Behaviors.Wpf": {
+              "target": "Package",
+              "version": "[1.1.77, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Command\\H.Extensions.Command.csproj": {
+      "version": "1.0.5",
+      "restore": {
+        "projectUniqueName": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Command\\H.Extensions.Command.csproj",
+        "projectName": "H.Extensions.Command",
+        "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Command\\H.Extensions.Command.csproj",
+        "packagesPath": "C:\\Users\\yongqian\\.nuget\\packages\\",
+        "outputPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Command\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yongqian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Base\\H.Mvvm\\H.Mvvm.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Base\\H.Mvvm\\H.Mvvm.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Common\\H.Extensions.Common.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Common\\H.Extensions.Common.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.Message\\H.Services.Message.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.Message\\H.Services.Message.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Common\\H.Extensions.Common.csproj": {
+      "version": "1.0.5",
+      "restore": {
+        "projectUniqueName": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Common\\H.Extensions.Common.csproj",
+        "projectName": "H.Extensions.Common",
+        "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Common\\H.Extensions.Common.csproj",
+        "packagesPath": "C:\\Users\\yongqian\\.nuget\\packages\\",
+        "outputPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yongqian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.DataBase\\H.Extensions.DataBase.csproj": {
+      "version": "1.0.5",
+      "restore": {
+        "projectUniqueName": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.DataBase\\H.Extensions.DataBase.csproj",
+        "projectName": "H.Extensions.DataBase",
+        "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.DataBase\\H.Extensions.DataBase.csproj",
+        "packagesPath": "C:\\Users\\yongqian\\.nuget\\packages\\",
+        "outputPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.DataBase\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yongqian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.FontIcon\\H.Extensions.FontIcon.csproj": {
+      "version": "1.0.5",
+      "restore": {
+        "projectUniqueName": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.FontIcon\\H.Extensions.FontIcon.csproj",
+        "projectName": "H.Extensions.FontIcon",
+        "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.FontIcon\\H.Extensions.FontIcon.csproj",
+        "packagesPath": "C:\\Users\\yongqian\\.nuget\\packages\\",
+        "outputPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.FontIcon\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yongqian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Base\\H.Mvvm\\H.Mvvm.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Base\\H.Mvvm\\H.Mvvm.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Geometry\\H.Extensions.Geometry.csproj": {
+      "version": "1.0.5",
+      "restore": {
+        "projectUniqueName": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Geometry\\H.Extensions.Geometry.csproj",
+        "projectName": "H.Extensions.Geometry",
+        "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Geometry\\H.Extensions.Geometry.csproj",
+        "packagesPath": "C:\\Users\\yongqian\\.nuget\\packages\\",
+        "outputPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Geometry\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yongqian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.Common\\H.Services.Common.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.Common\\H.Services.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Mvvm\\H.Extensions.Mvvm.csproj": {
+      "version": "1.0.5",
+      "restore": {
+        "projectUniqueName": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Mvvm\\H.Extensions.Mvvm.csproj",
+        "projectName": "H.Extensions.Mvvm",
+        "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Mvvm\\H.Extensions.Mvvm.csproj",
+        "packagesPath": "C:\\Users\\yongqian\\.nuget\\packages\\",
+        "outputPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Mvvm\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yongqian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Base\\H.Mvvm\\H.Mvvm.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Base\\H.Mvvm\\H.Mvvm.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Common\\H.Common\\H.Common.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Common\\H.Common\\H.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.NewtonsoftJson\\H.Extensions.NewtonsoftJson.csproj": {
+      "version": "1.0.5",
+      "restore": {
+        "projectUniqueName": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.NewtonsoftJson\\H.Extensions.NewtonsoftJson.csproj",
+        "projectName": "H.Extensions.NewtonsoftJson",
+        "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.NewtonsoftJson\\H.Extensions.NewtonsoftJson.csproj",
+        "packagesPath": "C:\\Users\\yongqian\\.nuget\\packages\\",
+        "outputPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.NewtonsoftJson\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yongqian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Setting\\H.Extensions.Setting.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Setting\\H.Extensions.Setting.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.Common\\H.Services.Common.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.Common\\H.Services.Common.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.Serializable\\H.Services.Serializable.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.Serializable\\H.Services.Serializable.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[13.0.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Setting\\H.Extensions.Setting.csproj": {
+      "version": "1.0.5",
+      "restore": {
+        "projectUniqueName": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Setting\\H.Extensions.Setting.csproj",
+        "projectName": "H.Extensions.Setting",
+        "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Setting\\H.Extensions.Setting.csproj",
+        "packagesPath": "C:\\Users\\yongqian\\.nuget\\packages\\",
+        "outputPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Setting\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yongqian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Mvvm\\H.Extensions.Mvvm.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Mvvm\\H.Extensions.Mvvm.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.AppPath\\H.Services.AppPath.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.AppPath\\H.Services.AppPath.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.Serializable\\H.Services.Serializable.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.Serializable\\H.Services.Serializable.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.Setting\\H.Services.Setting.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.Setting\\H.Services.Setting.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.TypeConverter\\H.Extensions.TypeConverter.csproj": {
+      "version": "1.0.5",
+      "restore": {
+        "projectUniqueName": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.TypeConverter\\H.Extensions.TypeConverter.csproj",
+        "projectName": "H.Extensions.TypeConverter",
+        "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.TypeConverter\\H.Extensions.TypeConverter.csproj",
+        "packagesPath": "C:\\Users\\yongqian\\.nuget\\packages\\",
+        "outputPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.TypeConverter\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yongqian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Validation\\H.Extensions.Validation.csproj": {
+      "version": "1.0.5",
+      "restore": {
+        "projectUniqueName": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Validation\\H.Extensions.Validation.csproj",
+        "projectName": "H.Extensions.Validation",
+        "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Validation\\H.Extensions.Validation.csproj",
+        "packagesPath": "C:\\Users\\yongqian\\.nuget\\packages\\",
+        "outputPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Validation\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yongqian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Mvvm\\H.Extensions.Mvvm.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Mvvm\\H.Extensions.Mvvm.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.ValueConverter\\H.Extensions.ValueConverter.csproj": {
+      "version": "1.0.5",
+      "restore": {
+        "projectUniqueName": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.ValueConverter\\H.Extensions.ValueConverter.csproj",
+        "projectName": "H.Extensions.ValueConverter",
+        "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.ValueConverter\\H.Extensions.ValueConverter.csproj",
+        "packagesPath": "C:\\Users\\yongqian\\.nuget\\packages\\",
+        "outputPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.ValueConverter\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yongqian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Base\\H.ValueConverter\\H.ValueConverter.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Base\\H.ValueConverter\\H.ValueConverter.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Common\\H.Extensions.Common.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Common\\H.Extensions.Common.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Validation\\H.Extensions.Validation.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Validation\\H.Extensions.Validation.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[7.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.XmlSerialize\\H.Extensions.XmlSerialize.csproj": {
+      "version": "1.0.5",
+      "restore": {
+        "projectUniqueName": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.XmlSerialize\\H.Extensions.XmlSerialize.csproj",
+        "projectName": "H.Extensions.XmlSerialize",
+        "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.XmlSerialize\\H.Extensions.XmlSerialize.csproj",
+        "packagesPath": "C:\\Users\\yongqian\\.nuget\\packages\\",
+        "outputPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.XmlSerialize\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yongqian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.AppPath\\H.Services.AppPath.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.AppPath\\H.Services.AppPath.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.Common\\H.Services.Common.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.Common\\H.Services.Common.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.Serializable\\H.Services.Serializable.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.Serializable\\H.Services.Serializable.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Presenters\\H.Presenters.Common\\H.Presenters.Common.csproj": {
+      "version": "1.0.5",
+      "restore": {
+        "projectUniqueName": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Presenters\\H.Presenters.Common\\H.Presenters.Common.csproj",
+        "projectName": "H.Presenters.Common",
+        "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Presenters\\H.Presenters.Common\\H.Presenters.Common.csproj",
+        "packagesPath": "C:\\Users\\yongqian\\.nuget\\packages\\",
+        "outputPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Presenters\\H.Presenters.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yongqian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Base\\H.ValueConverter\\H.ValueConverter.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Base\\H.ValueConverter\\H.ValueConverter.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Common\\H.Extensions.Common.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Common\\H.Extensions.Common.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Mvvm\\H.Extensions.Mvvm.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Extensions\\H.Extensions.Mvvm\\H.Extensions.Mvvm.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.Common\\H.Services.Common.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.Common\\H.Services.Common.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.Message\\H.Services.Message.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.Message\\H.Services.Message.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Styles\\H.Style\\H.Style.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Styles\\H.Style\\H.Style.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "Microsoft.Xaml.Behaviors.Wpf": {
+              "target": "Package",
+              "version": "[1.1.77, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Providers\\H.Iocable\\H.Iocable.csproj": {
+      "version": "1.0.5",
+      "restore": {
+        "projectUniqueName": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Providers\\H.Iocable\\H.Iocable.csproj",
+        "projectName": "H.Iocable",
+        "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Providers\\H.Iocable\\H.Iocable.csproj",
+        "packagesPath": "C:\\Users\\yongqian\\.nuget\\packages\\",
+        "outputPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Providers\\H.Iocable\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yongqian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "dependencies": {
+            "Microsoft.Extensions.DependencyInjection": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.AppPath\\H.Services.AppPath.csproj": {
+      "version": "1.0.5",
+      "restore": {
+        "projectUniqueName": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.AppPath\\H.Services.AppPath.csproj",
+        "projectName": "H.Services.AppPath",
+        "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.AppPath\\H.Services.AppPath.csproj",
+        "packagesPath": "C:\\Users\\yongqian\\.nuget\\packages\\",
+        "outputPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.AppPath\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yongqian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Common\\H.Common\\H.Common.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Common\\H.Common\\H.Common.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Providers\\H.Iocable\\H.Iocable.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Providers\\H.Iocable\\H.Iocable.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.Common\\H.Services.Common.csproj": {
+      "version": "1.0.5",
+      "restore": {
+        "projectUniqueName": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.Common\\H.Services.Common.csproj",
+        "projectName": "H.Services.Common",
+        "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.Common\\H.Services.Common.csproj",
+        "packagesPath": "C:\\Users\\yongqian\\.nuget\\packages\\",
+        "outputPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yongqian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Common\\H.Common\\H.Common.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Common\\H.Common\\H.Common.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Providers\\H.Iocable\\H.Iocable.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Providers\\H.Iocable\\H.Iocable.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.Logger\\H.Services.Logger.csproj": {
+      "version": "1.0.5",
+      "restore": {
+        "projectUniqueName": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.Logger\\H.Services.Logger.csproj",
+        "projectName": "H.Services.Logger",
+        "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.Logger\\H.Services.Logger.csproj",
+        "packagesPath": "C:\\Users\\yongqian\\.nuget\\packages\\",
+        "outputPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.Logger\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yongqian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Common\\H.Common\\H.Common.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Common\\H.Common\\H.Common.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Providers\\H.Iocable\\H.Iocable.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Providers\\H.Iocable\\H.Iocable.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.Message\\H.Services.Message.csproj": {
+      "version": "1.0.5",
+      "restore": {
+        "projectUniqueName": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.Message\\H.Services.Message.csproj",
+        "projectName": "H.Services.Message",
+        "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.Message\\H.Services.Message.csproj",
+        "packagesPath": "C:\\Users\\yongqian\\.nuget\\packages\\",
+        "outputPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.Message\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yongqian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Common\\H.Common\\H.Common.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Common\\H.Common\\H.Common.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Providers\\H.Iocable\\H.Iocable.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Providers\\H.Iocable\\H.Iocable.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.Serializable\\H.Services.Serializable.csproj": {
+      "version": "1.0.5",
+      "restore": {
+        "projectUniqueName": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.Serializable\\H.Services.Serializable.csproj",
+        "projectName": "H.Services.Serializable",
+        "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.Serializable\\H.Services.Serializable.csproj",
+        "packagesPath": "C:\\Users\\yongqian\\.nuget\\packages\\",
+        "outputPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.Serializable\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yongqian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Providers\\H.Iocable\\H.Iocable.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Providers\\H.Iocable\\H.Iocable.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.Logger\\H.Services.Logger.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.Logger\\H.Services.Logger.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.Setting\\H.Services.Setting.csproj": {
+      "version": "1.0.5",
+      "restore": {
+        "projectUniqueName": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.Setting\\H.Services.Setting.csproj",
+        "projectName": "H.Services.Setting",
+        "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.Setting\\H.Services.Setting.csproj",
+        "packagesPath": "C:\\Users\\yongqian\\.nuget\\packages\\",
+        "outputPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Services\\H.Services.Setting\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yongqian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Common\\H.Common\\H.Common.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Common\\H.Common\\H.Common.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Providers\\H.Iocable\\H.Iocable.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Providers\\H.Iocable\\H.Iocable.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Styles\\H.Style\\H.Style.csproj": {
+      "version": "1.0.5",
+      "restore": {
+        "projectUniqueName": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Styles\\H.Style\\H.Style.csproj",
+        "projectName": "H.Style",
+        "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Styles\\H.Style\\H.Style.csproj",
+        "packagesPath": "C:\\Users\\yongqian\\.nuget\\packages\\",
+        "outputPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Styles\\H.Style\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yongqian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Base\\H.Attach\\H.Attach.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Base\\H.Attach\\H.Attach.csproj"
+              },
+              "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Themes\\H.Theme\\H.Theme.csproj": {
+                "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Themes\\H.Theme\\H.Theme.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Themes\\H.Theme\\H.Theme.csproj": {
+      "version": "1.0.5",
+      "restore": {
+        "projectUniqueName": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Themes\\H.Theme\\H.Theme.csproj",
+        "projectName": "H.Theme",
+        "projectPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Themes\\H.Theme\\H.Theme.csproj",
+        "packagesPath": "C:\\Users\\yongqian\\.nuget\\packages\\",
+        "outputPath": "E:\\1.Code\\Git\\WPF-VisionMasterOpenCV2.0\\WPF-VisionMaster\\Source\\WPF-Control\\Source\\Themes\\H.Theme\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\yongqian\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.Fallback.config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0-windows"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0-windows7.0": {
+            "targetAlias": "net8.0-windows",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        },
+        "SdkAnalysisLevel": "9.0.300"
+      },
+      "frameworks": {
+        "net8.0-windows7.0": {
+          "targetAlias": "net8.0-windows",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            },
+            "Microsoft.WindowsDesktop.App.WPF": {
+              "privateAssets": "none"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
